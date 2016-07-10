@@ -1,0 +1,25 @@
+bitmath                    # providing bit/byte unit
+blinker                    # signals
+dj-database-url
+Django
+django-choices
+django-extensions
+django-ipware              # get real ip address of client
+django-redis
+django-widget-tweaks       # some CSS / UI
+djangorestframework
+netmiko                    # communicating with network devices
+pyparsing                  # parsing network scripts
+Werkzeug
+pytz                       # for using django.utils.timezone
+django-rq                  # background workers
+pubnub                     # publish subscribe
+pycrypto
+Pillow
+gunicorn
+psycopg2
+pyOpenSSL                  # local dev server SSL
+retrying
+XlsxWriter                 # generate report
+django_cleanup             # used for deleting stale uploaded images/files on Model (such as Customer's logo)
+django-webpack-loader

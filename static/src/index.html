@@ -1,0 +1,14 @@
+{% load render_bundle from webpack_loader %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pac App</title>
+</head>
+<body ng-cloak>
+<twitter-application></twitter-application>
+{% render_bundle 'main' %}
+</body>
+</html>
+
