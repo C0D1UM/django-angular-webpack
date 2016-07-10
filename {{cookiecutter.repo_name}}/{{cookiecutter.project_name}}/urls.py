@@ -1,4 +1,4 @@
-"""sbrand_crm URL Configuration
+"""{{cookiecutter.project_name}} URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.9/topics/http/urls/
@@ -17,8 +17,8 @@ from django.conf.urls import url
 from django.conf.urls.static import static
 from django.contrib import admin
 
-from sbrand_crm import settings
-from sbrand_crm.views import index
+from {{cookiecutter.project_name}} import settings
+from {{cookiecutter.project_name}}.views import index
 
 urlpatterns = [
                   url(r'^admin/', admin.site.urls),
