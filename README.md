@@ -4,7 +4,7 @@ Create a Django template with Angular and Webpack
 
 ### Getting Start
 
-Install cookiecutter
+Install cookiecutter if you don't have
 ```
 pip install cookiecutter
 ```
