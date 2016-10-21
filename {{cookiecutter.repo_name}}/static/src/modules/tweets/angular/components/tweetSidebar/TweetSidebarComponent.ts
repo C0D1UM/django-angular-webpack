@@ -1,3 +1,4 @@
+{% raw %}
 import {SidebarModel} from '../../../core/models/impl/SidebarModel';
 import {SharedModel} from '../../../core/models/impl/SharedModel';
 export class TweetSidebarComponent implements ng.IComponentOptions {
@@ -28,3 +29,4 @@ export class TweetSidebarController {
         this.model.toggleCollapsed();
     }
 }
+{% endraw %}

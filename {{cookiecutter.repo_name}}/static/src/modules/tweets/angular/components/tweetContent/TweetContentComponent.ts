@@ -1,3 +1,4 @@
+{% raw %}
 import {ContentModel} from '../../../core/models/impl/ContentModel';
 export class TweetContentComponent implements ng.IComponentOptions {
     public controller: Function = TweetContentController;
@@ -28,3 +29,4 @@ export class TweetContentController {
     constructor(public model: ContentModel) {
     }
 }
+{% endraw %}
